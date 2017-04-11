@@ -6,23 +6,20 @@ package com.javarush.test.level03.lesson12.home03;
 Пример:
 Я буду зарабатывать $50 в час
 */
-import java.io.Reader;
-import java.io.InputStream;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
 public class Solution
 {
 
-    public static void main(String[] args)   throws Exception
-    {
-        InputStream inputStream=System.in;//Напишите тут ваш код
-        Reader inputStreamReader=new InputStreamReader(inputStream);
-        BufferedReader bufferedReader=new BufferedReader(inputStreamReader);
+    public static void main(String[] args)   throws Exception {
 
-        String s_money=bufferedReader.readLine();
-        int n_money=Integer.parseInt(s_money);
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 
-        System.out.println("Я буду зарабатывать $"+n_money+" в час");
+        int money=Integer.parseInt(bufferedReader.readLine());
+
+
+        System.out.println("Я буду зарабатывать $"+money+" в час");
     }
 }
