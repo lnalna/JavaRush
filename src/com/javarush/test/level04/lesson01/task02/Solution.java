@@ -5,8 +5,8 @@ package com.javarush.test.level04.lesson01.task02;
  яблок увеличивалось на переданное значение.
 За суммарную стоимость яблок отвечает переменная public static int applesPrice.
 */
-public class Solution
-{
+public class Solution {
+
     public static void main(String[] args) {
         Apple apple = new Apple();
         Apple.addPrice(50);
