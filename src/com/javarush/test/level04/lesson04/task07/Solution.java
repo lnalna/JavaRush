@@ -21,7 +21,7 @@ public class Solution {
 
         int numberOfYear = Integer.parseInt(bufferedReader.readLine());
 
-        if(((numberOfYear%100==0)&(numberOfYear%400==0))||((numberOfYear%100!=0)&(numberOfYear%400!=0)&(numberOfYear%4==0)))
+        if(((numberOfYear%100==0)&&(numberOfYear%400==0))||((numberOfYear%100!=0)&&(numberOfYear%400!=0)&&(numberOfYear%4==0)))
 
             System.out.println("количество дней в году: "+366);
 
