@@ -21,7 +21,7 @@ public class Solution {
 
     public static void checkInterval(int a) {
         //::CODE:
-        if ( (50 <= a) & (a <= 100) ) {
+        if ( (50 <= a) && (a <= 100) ) {
 
             System.out.println("Число "+a+" содержится в интервале.");
         }
