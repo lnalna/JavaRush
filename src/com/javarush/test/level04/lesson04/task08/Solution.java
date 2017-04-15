@@ -23,7 +23,7 @@ public class Solution {
         int b = Integer.parseInt(bufferedReader.readLine());
         int c = Integer.parseInt(bufferedReader.readLine()) ;
 
-        if( ((a+b)>c) & ((a+c)>b) & ((b+c)>a) )
+        if( ((a+b)>c) && ((a+c)>b) && ((b+c)>a) )
             System.out.println("Треугольник существует.");
 
         else
