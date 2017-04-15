@@ -22,7 +22,7 @@ public class Solution {
         int number2 = Integer.parseInt(bufferedReader.readLine());
         int number3 = Integer.parseInt(bufferedReader.readLine());
 
-        if((number1==number2)&(number2==number3))
+        if((number1==number2)&&(number2==number3))
             System.out.println(number1+" "+number2+" "+number3);
 
         else if(number1==number2)
