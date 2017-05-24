@@ -47,4 +47,34 @@ public class Solution {
                     array[j+1]=temp;
                 }
     }
+
+/*
+    public static void qSort(int[] array, int l, int r) {
+        int i = l;
+        int j = r;
+        int x = array[l + rand.nextInt(r - l + 1)];
+        while (i <= j) {
+            while (array[i] < x) {
+                i++;
+            }
+            while (array[j] > x) {
+                j--;
+            }
+            if (i <= j) {
+                int temp = array[i];
+                array[i] = array[j];
+                array[j] = temp;
+                i++;
+                j--;
+            }
+        }
+        if (l<j){
+            qSort(array, l, j);
+        }
+        if(i<r){
+            qSort(array, i, r);
+        }
+    }
+    */
+
 }
